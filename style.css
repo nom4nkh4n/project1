@@ -1,0 +1,219 @@
+body{
+	margin: 0 auto;
+	height: auto;
+	font-family: 'Exo', sans-serif;
+}
+ h4{
+	color: #ff6d6d;
+}
+#header-section{
+	background-image: url("hill.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+
+}
+
+#header-section h1{
+	text-align: center;
+	padding-top: 200px;
+	font-weight: 700;
+}
+.header-icon{
+	text-align: center;
+}
+.header-text .btn-custom{
+	background-color: #ff6d6d;
+	padding: 10px 50px;
+	margin-top: 30px;
+	margin-bottom: 250px;
+}
+a{
+	color: #ffffff;
+}
+.fa-play-circle:before {
+    content: "\f144";
+    font-size: 50px;
+    margin-top: 65px;
+    line-height: 2;
+}
+.platform-section {
+	background-image: url("whitered.png");
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+	
+
+}
+.platform-text{
+	padding-top: 200px;
+	padding-bottom: 65px;
+}
+
+.platform-text p{
+	font-family: Exo medium;
+	padding-top: 50px;
+	font-size: 20px;
+}
+.feature-section{
+	background-color: #f6f5f3;
+    background-image: url("penholder.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.feature-section img{
+	margin: 0 auto;
+}
+.feature-text{
+	padding-top: 90px;
+	padding-bottom: 185px;
+}
+.header-section{
+	padding-top: 140px;
+}
+.design-section{
+	background-image: url("red.png");
+    background-repeat: no-repeat;
+    background-position-x: 0%;
+    background-size: cover;
+	
+}
+.design-text{
+	padding-top: 25px;
+	text-align: center;
+}
+
+.media-body, .media-left, .media-right {
+    display: table-cell;
+    vertical-align: middle;
+}
+.media, .media-body {
+    zoom: 1;
+    padding-top: 30px;
+}
+.media-object {
+    display: block;
+    padding-top: 55;
+}
+.team-section{
+	background-image:  url("triangle.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.team-section img{
+	margin: 0 auto;
+	
+}
+.team-text{
+	padding-top: 110px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+.team-text h2{
+	color: white;
+	text-align: center;
+
+}
+.team-text p{
+	color: white;
+}
+.team-image{
+	text-align: center;
+	padding-top: 70px;
+	padding-bottom: 45px;
+}
+
+.awesome-section{
+	background-color: #f6f5f3;
+}
+.awesome-header{
+	padding-top: 100px;
+}
+.awesome-header p{
+	margin: 0 auto;
+    font-weight: 500;
+    font-size: 22px;
+}
+.awesome-image img{
+	margin: 0 auto;
+	padding-top: 110px;
+}
+.designer-section{
+	background-color: #323969;
+}
+.designer-header{
+	padding-top: 90px;
+	padding-bottom: 110px;
+}
+.designer-header h1{
+	color: #ffffff;
+}
+ .btn{
+	background-color: #ff6d6d;
+	padding: 5px 50px;
+}
+.form-group{
+	padding-right: 20px;
+}
+.form-control{
+	background-color: #464c77;
+}
+.condition p{
+	color: #a8aabc;
+	padding-top: 50px;
+	padding-bottom: 80px;
+}
+.footer-section{
+	background: url("red2.png");
+	background-repeat: no-repeat;
+	background-position-x: 100%;
+    background-position-y: 109%;;
+}
+.footer-input{
+	background-color: #ff6d6d;
+}
+.input-group .form-control:first-child, .input-group-addon:first-child, .input-group-btn:first-child>.btn, .input-group-btn:first-child>.btn-group>.btn, .input-group-btn:first-child>.dropdown-toggle, .input-group-btn:last-child>.btn-group:not(:last-child)>.btn, .input-group-btn:last-child>.btn:not(:last-child):not(.dropdown-toggle) {
+    border-top-right-radius: 0;
+    background: white;
+    border-bottom-right-radius: 0;
+}
+.footer-icon {
+    padding-right: 8px;
+    padding-top: 5px;
+    line-height: 3;
+    letter-spacing: 5px;
+    font-size: 15px;
+}
+.footer-content{
+	padding-top: 90px;
+	padding-bottom: 110px;
+}
+
+/*media queries*/
+@media(max-width: 768px){
+	#header-section{background:#f6f5f3; }
+	.list-inline {
+    padding-left: 0;
+    margin-left: -5px;
+    list-style: none;
+    display: inline-flex;
+}
+.feature-section {
+    background: #f6f5f3;}
+    .design-section{background:#ffffff; }
+    .footer-section{
+    	background: none;
+    }
+    .footer-section p{
+    	display: inline-block;
+    	padding-right: 5px;
+    }
+    .footer-icon {
+    padding-right: 8px;
+    padding-top: 5px;
+    line-height: 3;
+    letter-spacing: 5px;
+    font-size: 15px;
+    display: list-item;
+    
+}
